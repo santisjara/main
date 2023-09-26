@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO</title>
+</head>
+<body class="colorcontacto">
+    <header class="logotipo">
+        <a href="../index.html">
+            <img src="../Imagenes-Web/Logotipo.png" alt="Logotipo de Merakidcv">
+        </a>
+    </header>
+    <div id="titulocontactos">
+        <span class="titulocontacto">
+             TRABAJEMOS
+        </span>
+        <span class="palabraboldindex">
+             JUNTOS
+        </span>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quienes-somos.html">QUIENES SOMOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicios.html">SERVICIOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="grilla-de-dos">
+        <nav>
+            <form action="form.php" method="POST">
+                <label for="nombre">Nombre y apellido</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Santi Sandoval">
+                <label for="correo">Correo Electrónico</label>
+                <input type="text" name="correo" id="correo" placeholder="estudio@meraki.com">
+                <label for="empresa">Empresa o emprendimiento</label>
+                <input type="text" name="empresa" id="empresa" placeholder="Meraki Estudio">  
+                <label for="servicio">Servicios</label>
+                <select name="servicio" id="servicio">
+                    <option value="branding">Branding</option>
+                    <option value="community">Community Management</option>
+                    <option value="impresion">Impresion</option>
+                    <option value="otras_piezas">Otras piezas digitales</option>
+                </select>
+
+                <label for="comentarios">Comentarios</label>
+                <textarea name="comentarios" id="comentarios" cols="30" rows="3"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </nav>
+
+        <img src="../Fotos-Contacto/juntos.png" alt="Foto del setup" class="fotojuntos">
+    </div>
+
+    <div class="mail">
+        <p>NO TE OLVIDES DE CONECTAR CON NOSOTROS</p>
+        <p>PARA ACCEDER A <span class="bold">CONTENIDO EXCLUSIVO</span></p>
+    </div>
+    <div class="redes-sociales">
+        <a href="https://www.instagram.com/merakidcv" target="_blank">
+            <button class="boton-instagram">INSTAGRAM</button>
+        </a>
+        <a href="https://wa.me/2213515454" target="_blank">
+            <button class="boton-whatsapp">WHATSAPP</button>
+        </a>
+    </div>
+
+    <footer>
+        <div class="classfooter">
+            <div>
+                <span id="mrk">
+                    MERAKIDCV (R)
+                </span>   
+            </div>
+            <div id="textosfooter">  
+                <span>Encontranos en</span>
+                <a href="htpps://facebook.com"> <img src="../iconos/facebook.png" alt="facebook logo"> </a>
+                <a href="htpps://instagram.com/merakidcv"> <img src="../iconos/instagram.png" alt="instagram logo"> </a>
+            </div>
+        </div>     
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</html>

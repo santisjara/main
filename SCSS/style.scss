@@ -1,0 +1,531 @@
+@import 'variables';
+@import 'tipografias';
+@import 'footer';
+@import 'reset';
+@import 'animacion';
+
+.logotipo {
+  img {
+    width: 15%;
+  }
+  padding: 0;
+  padding-bottom: 3em;
+  padding-left: 2.5em;
+}
+
+.bold {
+  font-family: $font-family-mi-tipografia-bold;
+}
+
+.light {
+  font-family: $font-family-mi-tipografia;
+}
+
+.navbar-nav li {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+nav {
+  margin-bottom: 2em;
+  padding: 1.5em;
+}
+
+.nav-item {
+  transition: background-color 0.3s ease; 
+}
+
+.nav-item:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+.palabraBold {
+  font-family: $font-family-mi-tipografia-bold;
+  font-size: 80px;
+}
+
+
+.titulo, .titulocontacto {
+  font-family: $font-family-mi-tipografia;
+  font-size: 80px;
+  padding-left: 0.5em;
+}
+
+.bajadas {
+  font-size: x-large;
+  padding-left: 1.72em;
+  text-decoration: underline;
+}
+
+.imagenes img {
+  display: flex;
+  width: 100%;
+}
+
+.imagenes ul li a img:hover {
+  transform: scale(1.1);
+  opacity: 0.7;
+}
+
+.arregloTex {
+  margin-right: 5em;
+}
+
+.servicios {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.divs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 1rem;
+  border-bottom: 1px solid black;
+  padding-bottom: 2em;
+
+  div img {
+    width: 75%;
+  }
+}
+
+.imagenes ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 0;
+}
+
+.imagenes img {
+  width: 100%;
+}
+
+.imagenes li {
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.tabla-portfolio {
+  width: 80%;
+  border-collapse: collapse;
+  padding-left: 3em;
+  padding-top: 2em;
+  border-top: 1px solid #ccc;
+}
+
+.fila {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 17px;
+}
+
+.fila-primera {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+
+  p {
+    font-family: $font-family-mi-tipografia-bold;
+  }
+}
+
+.fila:first-child {
+  font-weight: bold;
+}
+
+.columna {
+  flex: 1;
+  text-align: left;
+}
+
+.mail {
+  padding-left: 2em;
+  padding-top: 0.75em;
+}
+
+.mrkmail {
+  color: rgb(144, 96, 20);
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.marron {
+  font-size: 10000000px;
+  color: aqua;
+}
+
+/* Página de CONTACTO */
+
+.colorcontacto {
+  background-color: rgb(240, 237, 226);
+  font-family: $font-family-mi-tipografia, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.grilla-de-dos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
+  margin-top: 50px;
+}
+
+nav form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, auto);
+  margin-left: 1em;
+  row-gap: 20px;
+  width: 50%;
+  background: transparent;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  border-bottom: 1px solid #ccc;
+}
+
+label {
+  color: #68570f;
+}
+
+button[type="submit"] {
+  background-color: #68570f;
+  color: beige;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #bbb;
+}
+
+.redes-sociales {
+  display: flex;
+  max-width: 100px;
+  margin-left: 2em;
+  margin-bottom: 3em;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.boton-instagram,
+.boton-whatsapp {
+  background-color: #68570f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.boton-instagram:hover,
+.boton-whatsapp:hover {
+  background-color: #ccc;
+}
+
+
+.fotojuntos {
+  max-width: 100%;
+  height: auto;
+  width: 60%;
+  margin-left: -10em;
+}
+
+/* Página de QUIENES SOMOS */
+
+#parrafo {
+  padding-bottom: 2em;
+  font-size: 18px;
+}
+
+#santi {
+  display: grid;
+  grid-template-columns: repeat(2fr);
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5em;
+}
+
+#santi p {
+  font-size: 20px;
+  padding-left: 5em;
+  padding-right: 10em;
+}
+
+#fotosanti {
+  width: 60%;
+}
+
+
+#flor {
+  display: grid;
+  grid-template-columns: repeat(2fr);
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 4em;
+}
+
+#flor p {
+  font-size: 20px;
+  padding-left: 3em;
+  padding-right: 10em;
+}
+
+#tituloflor {
+  padding-left: 1.7em;
+}
+
+#fotoflor {
+  margin-left: 7em;
+  width: 60%;
+}
+
+.negrita {
+  font-family: $font-family-mi-tipografia-bold;
+}
+
+.tituloquienes {
+  margin-left: 1.8em;
+  font-size: 60px;
+}
+
+.img-quienes {
+  display: flex;
+  justify-content: left;
+  padding-bottom: 2em;
+  padding-left: 7em;
+  padding-top: 3em;
+}
+
+.img-quienes img {
+  width: 80%;
+}
+
+#parrafo {
+  margin-left: 5.5em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.somos div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.somos img {
+  width: 100%;
+}
+
+.somos h2 {
+  font-size: 400%;
+  padding-left: 1.5em;
+}
+
+/* Estilos para el contenedor de la imagen */
+#loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(240, 237, 226); 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  animation: fade-out 1.5s ease-in-out forwards; /* Animación de fadeout */
+}
+
+
+/* Aplica la animación de latido a la imagen */
+#logo {
+  animation: heartbeat 1.5s infinite; 
+}
+
+
+#loader img {
+  width: 300px;
+  height: auto; 
+}
+
+
+@media screen and (max-width: 768px) {
+  html  {
+    overflow-x: hidden;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .imagenes ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .logotipo {
+    width: 200%;
+    display: grid;
+    justify-content: center;
+    padding-left: 121px;
+
+
+    a img {
+      display: grid;
+      justify-content: center;
+    }
+  }
+
+  .imagenes li {
+    margin: 0;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+
+  .titulo, .titulocontacto {
+    font-size: 50px;
+  }
+
+  .palabraBold {
+    font-size: 50px;
+  }
+
+  .bajadas {
+    margin-bottom: -10px;
+  }
+
+  .divs {
+    grid-template-columns: 1fr;
+  }
+
+  .divs div img {
+    width: 100%;
+  }
+
+  .columna p {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 70%;
+  }
+
+  .fila {
+    padding-bottom: 0px;
+  }
+
+  .mail p {
+    font-size: 70%;
+  }
+
+/* Página de QUIENES SOMOS - mobile */
+ 
+  .titulo {
+    display: block;
+    font-size: 60px;
+    padding-left: 51px;
+  }
+
+  #parrafo {
+    display: block;
+    margin: 0;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+    p {
+      margin-right: 0;
+      padding-top: 0.5em;
+    }
+
+  }
+  
+  .img-quienes {
+   padding: 0;
+   img {
+    width: 100%;
+   }
+  }
+  
+#santi{
+  p {
+    margin: 0;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  display: block;
+
+  img {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+#flor {
+  p {
+    margin: 0;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  display: block;
+  img {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+}
+
+.palabraBold {
+  text-align: left;
+  padding-left: 51px;
+
+}
+
+.grilla-de-dos {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.fotojuntos {
+  margin: 0;
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+}
+
+.titulo {
+  padding-left: 35px;
+}
+
+.palabraBold {
+  padding-left: 0;
+}
+
+.palabraboldindex {
+  padding-left: 35px;
+}
+
+}
