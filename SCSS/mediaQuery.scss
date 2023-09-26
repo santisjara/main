@@ -1,0 +1,163 @@
+
+@media screen and (max-width: 768px) {
+    html  {
+      overflow-x: hidden;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      overflow: hidden;
+    }
+  
+    .imagenes ul {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .logotipo {
+      width: 200%;
+      display: grid;
+      justify-content: center;
+      padding-left: 121px;
+  
+  
+      a img {
+        display: grid;
+        justify-content: center;
+      }
+    }
+  
+    .imagenes li {
+      margin: 0;
+      padding: 10px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+  
+    .titulo, .titulocontacto {
+      font-size: 50px;
+    }
+  
+    .palabraBold {
+      font-size: 50px;
+    }
+  
+    .bajadas {
+      margin-bottom: -10px;
+    }
+  
+    .divs {
+      grid-template-columns: 1fr;
+    }
+  
+    .divs div img {
+      width: 100%;
+    }
+  
+    .columna p {
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 70%;
+    }
+  
+    .fila {
+      padding-bottom: 0px;
+    }
+  
+    .mail p {
+      font-size: 70%;
+    }
+  
+  /* Página de QUIENES SOMOS - mobile */
+   
+    .titulo {
+      display: block;
+      font-size: 60px;
+      padding-left: 51px;
+    }
+  
+    #parrafo {
+      display: block;
+      margin: 0;
+      padding: 10px;
+      margin-bottom: 10px;
+      
+      p {
+        margin-right: 0;
+        padding-top: 0.5em;
+      }
+  
+    }
+    
+    .img-quienes {
+     padding: 0;
+     img {
+      width: 100%;
+     }
+    }
+    
+  #santi{
+    p {
+      margin: 0;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+  
+    display: block;
+  
+    img {
+      width: 100%;
+      margin: 0;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+  }
+  
+  #flor {
+    p {
+      margin: 0;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    display: block;
+    img {
+      width: 100%;
+      margin: 0;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+  
+  }
+  
+  .palabraBold {
+    text-align: left;
+    padding-left: 51px;
+  
+  }
+  
+  .grilla-de-dos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  
+  .fotojuntos {
+    margin: 0;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .titulo {
+    padding-left: 35px;
+  }
+  
+  .palabraBold {
+    padding-left: 0;
+  }
+  
+  .palabraboldindex {
+    padding-left: 35px;
+  }
+  
+  }
