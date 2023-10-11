@@ -1,4 +1,14 @@
-/* Animación de latido */
+/* Aplica la animación de latido a la imagen */
+#logo {
+  animation: heartbeat 1.5s infinite; 
+}
+
+
+#loader img {
+  width: 300px;
+  height: auto; 
+}
+
 @keyframes heartbeat {
     0% {
       transform: scale(1); /* Escala normal */

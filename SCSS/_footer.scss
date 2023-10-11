@@ -3,16 +3,18 @@
     padding-top: 2em;
     border-top: 1px solid black;
   }
-  
-  #textosfooter {
+  .mrk {
+    padding: 10px;
+  }
+  .textosfooter {
     text-align: center;
   
     span {
       display: block;
       margin-bottom: 10px;
     }
-  
-    #mrk, a {
+
+    a {
       display: inline-block;
       margin: 0 10px;
     }

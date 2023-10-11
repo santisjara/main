@@ -1,0 +1,302 @@
+
+
+.titulo {
+  font-family: $font-family-mi-tipografia;
+  font-size: 50px;
+    }
+
+
+.titulo-bold {
+  font-family: $font-family-mi-tipografia-bold;
+  font-weight: bold;
+}
+
+
+.palabrabold {
+  font-family: $font-family-mi-tipografia-bold;
+  font-size: 50px;
+}
+
+
+.titulo, .titulocontacto {
+  padding-left: 0.5em;
+}
+
+.bajadas {
+  font-size: x-large;
+  padding-left: 1.72em;
+  text-decoration: underline;
+}
+
+
+
+.arreglotex {
+
+    padding-right: 1em;
+  }
+  
+  /* Página de Servicios */
+  
+  .servicios {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+  }
+  
+  .divs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 1rem;
+    padding-bottom: 2em;
+  
+    &:not(:last-child) {
+      border-bottom: 1px solid black;
+    }
+  
+    div img {
+      width: 75%;
+    }
+  }
+  
+  .imagenes ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 0;
+  }
+  
+  .imagenes img {
+    width: 100%;
+  }
+  
+  .imagenes li {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Página de Portfolio */
+  
+  .tabla-portfolio {
+    width: 80%;
+    border-collapse: collapse;
+    padding-left: 3em;
+    padding-top: 2em;
+    border-top: 1px solid #ccc;
+  }
+  
+  .fila {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 17px;
+  }
+  
+  .fila-primera {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+  
+    p {
+      font-family: $font-family-mi-tipografia-bold;
+    }
+  }
+  
+  .fila:first-child {
+    font-weight: bold;
+  }
+  
+  .columna {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .mail {
+    padding-left: 2em;
+    padding-top: 0.75em;
+  }
+  
+  .mrkmail {
+    color: rgb(144, 96, 20);
+    font-size: 20px;
+    text-decoration: underline;
+  }
+  
+  .marron {
+    font-size: 10000000px;
+    color: aqua;
+  }
+  
+  /* Página de CONTACTO */
+  
+  .colorcontacto {
+    background-color: rgb(240, 237, 226);
+    font-family: $font-family-mi-tipografia, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .grilla-de-dos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    margin-top: 50px;
+  }
+  
+  nav form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+    margin-left: 1em;
+    row-gap: 20px;
+    width: 50%;
+    background: transparent;
+  }
+  
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  label {
+    color: #68570f;
+  }
+  
+  button[type="submit"] {
+    background-color: #68570f;
+    color: beige;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #bbb;
+  }
+  
+  .redes-sociales {
+    display: flex;
+    max-width: 100px;
+    margin-left: 2em;
+    margin-bottom: 3em;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .boton-instagram,
+  .boton-whatsapp {
+    background-color: #68570f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: left;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .boton-instagram:hover,
+  .boton-whatsapp:hover {
+    background-color: #ccc;
+  }
+  
+  
+  .fotojuntos {
+    max-width: 100%;
+    height: auto;
+    width: 60%;
+    margin-left: -10em;
+  }
+  
+  /* Página de QUIENES SOMOS */
+  
+  .parrafo {
+    padding-bottom: 1em;
+    font-size: 18px;
+  }
+  
+  .box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    padding: 30px;
+  }
+  
+  .foto {
+    img {
+     width: 65%;
+     padding-left: 2em;
+    }
+  }
+  
+  .textos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    height: 100%;
+    padding: 2em;
+  }
+  
+  .personas {
+    margin: 6em; 
+    border-left: 1px solid black; 
+  }
+  
+  .negrita {
+    font-family: $font-family-mi-tipografia-bold;
+  }
+  
+  .tituloquienes {
+    margin-left: 1.8em;
+    font-size: 60px;
+  }
+  
+  .img-quienes {
+    display: flex;
+    justify-content: left;
+    padding-bottom: 2em;
+    padding-left: 6em;
+    padding-top: 3em;
+    overflow: hidden;
+  
+    img {
+      width: 80%;
+      height: 80%;
+      object-fit: cover;
+    }
+  }
+  
+  
+  .parrafo {
+    margin-left: 5.5em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  
+  /* Contenedor de la imagen */
+  #loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(240, 237, 226); 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    animation: fade-out 1.5s ease-in-out forwards; /* Animación de fadeout */
+  }
+  
